@@ -9,7 +9,7 @@ class CategoryResource(ModelResource):
         allowed_methods = ['get']
 
 
-class CoursesResource(ModelResource):
+class CourseResource(ModelResource):
     class Meta:
         queryset = Courses.objects.all()
         name = 'courses'
